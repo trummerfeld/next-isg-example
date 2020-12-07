@@ -25,7 +25,7 @@ export default function Stats({ data }) {
   return (
     <div className="container mx-auto max-w-3xl pt-4 pl-4 pr-4 pb-16">
       <Head>
-        <title>Steam Market Stats iSSG'ed</title>
+        <title>Steam Market Stats ISG'ed</title>
       </Head>
       <nav>
         <ul className="flex items-center justify-between">
@@ -81,7 +81,7 @@ export default function Stats({ data }) {
         </ul>
       </nav>
 
-      <h1 className="text-4xl pt-16">Steam Market Stats iSSG'ed</h1>
+      <h1 className="text-4xl pt-16">Steam Market Stats ISG'ed</h1>
       <div className="pb-16 text-xs">Berlin, 07/12/2020 - Lucas</div>
       <h2 className="text-xl pb-4 font-semibold">Steam Market Stats</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 pb-4">
@@ -137,10 +137,10 @@ export default function Stats({ data }) {
         On top, I have read in a Slack Channel of our Frontend Development
         Profession, that they want to introduce TailwindCSS for our latest
         projects. Which inspired to check in more detail on both Incremental
-        Static Generation (iSSG) and Tailwind.
+        Static Generation (ISG) and Tailwind.
         <br></br>
         Those two discussions led my motivation to create this simple POC and
-        get to know, if this approach of iSSG could really fit into our
+        get to know, if this approach of ISG could really fit into our
         projects.
       </p>
 
@@ -205,7 +205,7 @@ export default function Stats({ data }) {
           In my demo setup I included a Cloudfront Cache for testing purposes
           and it seems to be a valid option, to add that caching layer on top of
           the stack. Using such setup, seems to be the main benefit of this
-          method (iSSG).{" "}
+          method (ISG).{" "}
           <Link href="https://vercel.com/docs/edge-network/overview">
             <a className="underline">Vercel</a>
           </Link>{" "}
@@ -223,7 +223,7 @@ export default function Stats({ data }) {
       <p>
         Feel free to visit the code this page and create an Issue or a Pull
         Request in case you want something to be changed:{" "}
-        <Link href="https://github.com/trummerfeld/next-issg-example">
+        <Link href="https://github.com/trummerfeld/next-isg-example">
           <a className="underline">GitHub Repo</a>
         </Link>
       </p>

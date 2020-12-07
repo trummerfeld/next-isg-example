@@ -83,7 +83,7 @@ export default function Stats({ data }) {
       </nav>
 
       <h1 className="text-4xl pt-16">Steam Market Stats ISG'ed</h1>
-      <div className="pb-16 text-xs">Berlin, 07/12/2020 - Lucas</div>
+      <div className="pb-16 text-xs">Berlin, 12/6/2020 - Lucas</div>
       <h2 className="text-xl pb-4 font-semibold">Steam Market Stats</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 pb-4">
         <div className="flex space-x-2 p-4 rounded-md shadow-md max-w-md mx-auto min-w-full">

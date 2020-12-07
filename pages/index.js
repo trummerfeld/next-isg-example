@@ -51,7 +51,7 @@ export default function Stats({ data }) {
               className="hover:bg-gray-50 dark:hover:bg-gray-900 rounded-md"
               onClick={switchTheme}
             >
-              {theme === "light" ? (
+              {theme === "light" || !isMounted ? (
                 <div className="w-8 h-8">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -171,9 +171,9 @@ export default function Stats({ data }) {
           With Next 9.5, they have introduced Incremental Static Site
           generation. This rendering method uses ‚getStaticProps‘ too, but it
           lets you add an option to to re-build your page, called
-          „revalidation“.
+          „revalidation“.</p>
           <blockquote>
-            <p class="text-lg font-semibold pt-8 pl-4 pr-4">
+            <p className="text-lg font-semibold pt-8 pl-4 pr-4">
               "Incremental Static Regeneration allows you to update existing
               pages by re-rendering them in the background as traffic comes in."
             </p>
@@ -181,6 +181,7 @@ export default function Stats({ data }) {
           <figcaption className="flex justify-center pb-8 text-xs">
             Copied from the Next.js Documentation
           </figcaption>
+          <p className="text-base text-justify">
           I have chosen to revalidate my page every 5 minutes, because the
           result of the API does not get changed too often. In general,
           revalidation lets you define the interval of in seconds.<br></br>

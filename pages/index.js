@@ -25,6 +25,7 @@ export default function Stats({ data }) {
   return (
     <div className="container mx-auto max-w-3xl pt-4 pl-4 pr-4 pb-16">
       <Head>
+      <meta name="description" content="Next.js Example using Incremental Static Generation."/>
         <title>Steam Market Stats ISG'ed</title>
       </Head>
       <nav>

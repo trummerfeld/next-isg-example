@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
         <body className="bg-white text-black dark:bg-black dark:text-white">
           <Main />
           <NextScript />
